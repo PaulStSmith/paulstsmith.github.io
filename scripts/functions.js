@@ -35,7 +35,7 @@
 	  */
 	 var _JQ = null; // Temporary variable to use if '$' is not 'jQuery'.
 	 if (jQuery == null) return; // no jQuery
-	 if ($ != jQuery) { _JQ = $; $ = jQuery; }
+	 if ($ != jQuery) { _JQ = $; window.$ = jQuery; }
 
 	 /*
 	  * Toggle the visibility of the element
@@ -55,4 +55,27 @@
 	  * Clean up
 	  */
 	 if (_JQ != null) $ = _JQ;
- }	 
+ }
+ 
+ /**
+  * Add target to all links in a page.
+  */
+  function fixLinksTargetAttr() {
+	 /*
+	  * Check for jQuery.
+	  */
+	 var _JQ = null; // Temporary variable to use if '$' is not 'jQuery'.
+	 if (jQuery == null) return; // no jQuery
+	 if ($ != jQuery) { _JQ = $; window.$ = jQuery; }
+
+     $("a").each(function(el) {
+         if (($(el).attr("href") != "") && ($(el).attr("target") == null)) {
+             $(el).attr("target", "_blank")
+         }
+     })
+     
+	 /*
+	  * Clean up
+	  */
+	 if (_JQ != null) $ = _JQ;
+  }
