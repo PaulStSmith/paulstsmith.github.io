@@ -68,7 +68,7 @@
 	 if (jQuery == null) return; // no jQuery
 	 if ($ != jQuery) { _JQ = $; window.$ = jQuery; }
 
-     $("a").each(function(el) {
+     $(".entry-content a").each(function(el) {
          if (($(el).attr("href") != "") && ($(el).attr("target") == null)) {
              $(el).attr("target", "_blank")
          }
