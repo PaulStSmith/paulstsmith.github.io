@@ -1,28 +1,45 @@
 /* PrismJS 1.29.0
-https://prismjs.com/download.html#themes=prism-twilight&languages=markup+css+clike+javascript+aspnet+basic+csharp+javadoclike+markup-templating+php+phpdoc+php-extras+python+cshtml+sql+t4-templating+t4-cs+t4-vb+vbnet+visual-basic&plugins=line-numbers+toolbar+copy-to-clipboard */
-code[class*=language-], pre[class*=language-] {
-    color: #fff;
-    background: 0 0;
-    font-family: Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;
+ *
+ * Modified by 
+ * Paulo Santos 
+ * 25.Nov.2022
+ *
+ * Original: https://bit.ly/3F7N064
+ */
+ 
+code, 
+pre {
+	border: .1em solid #3f3f3f;
+	border-radius: .3em;
+    background: #2b2b2b;
+    font-family: 'Cascadia Mono', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
     font-size: 1em;
-    text-align: left;
-    text-shadow: 0 -.1em .2em #000;
     white-space: pre;
     word-spacing: normal;
     word-break: normal;
     word-wrap: normal;
     line-height: normal;
+}
+code[class*=language-], 
+pre[class*=language-] {
+    border: none;
+	border-radius: 0;
+    background: #141414;
+    color: #fff;
+    text-align: left;
+    text-shadow: 0 -.1em .2em #000;
+    tab-size: 4;
     -moz-tab-size: 4;
     -o-tab-size: 4;
-    tab-size: 4;
     -webkit-hyphens: none;
     -moz-hyphens: none;
     -ms-hyphens: none;
     hyphens: none
 }
 
-:not(pre) > code[class*=language-], pre[class*=language-] {
-    background: #141414
+code[class*=language-] > span, 
+pre[class*=language-] > span {
+	background : #141414;
 }
 
 pre[class*=language-] {
@@ -34,23 +51,29 @@ pre[class*=language-] {
     padding: 1em
 }
 
-    pre[class*=language-]::-moz-selection {
-        background: #27292a
-    }
+pre[class*=language-]::-moz-selection {
+	background: #27292a
+}
 
-    pre[class*=language-]::selection {
-        background: #27292a
-    }
+pre[class*=language-]::selection {
+	background: #27292a
+}
 
-    code[class*=language-] ::-moz-selection, code[class*=language-]::-moz-selection, pre[class*=language-] ::-moz-selection, pre[class*=language-]::-moz-selection {
-        text-shadow: none;
-        background: hsla(0,0%,93%,.15)
-    }
+code[class*=language-] ::-moz-selection, 
+code[class*=language-]::-moz-selection, 
+pre[class*=language-] ::-moz-selection, 
+pre[class*=language-]::-moz-selection {
+	text-shadow: none;
+	background: hsla(0,0%,93%,.15)
+}
 
-    code[class*=language-] ::selection, code[class*=language-]::selection, pre[class*=language-] ::selection, pre[class*=language-]::selection {
-        text-shadow: none;
-        background: hsla(0,0%,93%,.15)
-    }
+code[class*=language-] ::selection, 
+code[class*=language-]::selection, 
+pre[class*=language-] ::selection, 
+pre[class*=language-]::selection {
+	text-shadow: none;
+	background: hsla(0,0%,93%,.15)
+}
 
 :not(pre) > code[class*=language-] {
     border-radius: .3em;
@@ -60,7 +83,13 @@ pre[class*=language-] {
     white-space: normal
 }
 
-.token.cdata, .token.comment, .token.doctype, .token.prolog {
+.token.comment {
+	color: #080;
+}
+
+.token.cdata, 
+.token.doctype, 
+.token.prolog {
     color: #777
 }
 
@@ -72,15 +101,33 @@ pre[class*=language-] {
     opacity: .7
 }
 
-.token.boolean, .token.deleted, .token.number, .token.tag {
+.token.boolean, 
+.token.deleted, 
+.token.number, 
+.token.tag {
     color: #ce6849
 }
 
-.token.builtin, .token.constant, .token.keyword, .token.property, .token.selector, .token.symbol {
+.token.builtin, 
+.token.constant, 
+.token.keyword, 
+.token.property, 
+.token.selector, 
+.token.symbol {
     color: #f9ed99
 }
 
-.language-css .token.string, .style .token.string, .token.attr-name, .token.attr-value, .token.char, .token.entity, .token.inserted, .token.operator, .token.string, .token.url, .token.variable {
+.language-css .token.string, 
+.style .token.string, 
+.token.attr-name, 
+.token.attr-value, 
+.token.char, 
+.token.entity, 
+.token.inserted, 
+.token.operator, 
+.token.string, 
+.token.url, 
+.token.variable {
     color: #909e6a
 }
 
@@ -88,11 +135,13 @@ pre[class*=language-] {
     color: #7385a5
 }
 
-.token.important, .token.regex {
+.token.important, 
+.token.regex {
     color: #e8c062
 }
 
-.token.bold, .token.important {
+.token.bold, 
+.token.important {
     font-weight: 700
 }
 
@@ -104,7 +153,9 @@ pre[class*=language-] {
     cursor: help
 }
 
-.language-markup .token.attr-name, .language-markup .token.punctuation, .language-markup .token.tag {
+.language-markup .token.attr-name, 
+.language-markup .token.punctuation, 
+.language-markup .token.tag {
     color: #ac885c
 }
 
@@ -122,10 +173,11 @@ pre[class*=language-] {
     z-index: 0
 }
 
-    .line-highlight.line-highlight:before, .line-highlight.line-highlight[data-end]:after {
-        background-color: #8693a6;
-        color: #f4f1ef
-    }
+.line-highlight.line-highlight:before, 
+.line-highlight.line-highlight[data-end]:after {
+	background-color: #8693a6;
+	color: #f4f1ef
+}
 
 pre[class*=language-].line-numbers {
     position: relative;
@@ -133,10 +185,10 @@ pre[class*=language-].line-numbers {
     counter-reset: linenumber
 }
 
-    pre[class*=language-].line-numbers > code {
-        position: relative;
-        white-space: inherit
-    }
+pre[class*=language-].line-numbers > code {
+	position: relative;
+	white-space: inherit
+}
 
 .line-numbers .line-numbers-rows {
     position: absolute;
@@ -158,67 +210,129 @@ pre[class*=language-].line-numbers {
     counter-increment: linenumber
 }
 
-    .line-numbers-rows > span:before {
-        content: counter(linenumber);
-        color: #999;
-        display: block;
-        padding-right: .8em;
-        text-align: right
-    }
+.line-numbers-rows > span:before {
+	content: counter(linenumber);
+	color: #999;
+	display: block;
+	padding-right: .8em;
+	text-align: right
+}
 
 div.code-toolbar {
     position: relative
 }
 
-    div.code-toolbar > .toolbar {
-        position: absolute;
-        z-index: 10;
-        top: .3em;
-        right: .2em;
-        transition: opacity .3s ease-in-out;
-        opacity: 0
-    }
+div.code-toolbar > .toolbar {
+	position: absolute;
+	z-index: 10;
+	top: .3em;
+	right: .2em;
+	transition: opacity .3s ease-in-out;
+	opacity: 0
+}
 
-    div.code-toolbar:hover > .toolbar {
-        opacity: 1
-    }
+div.code-toolbar:hover > .toolbar {
+	opacity: 1
+}
 
-    div.code-toolbar:focus-within > .toolbar {
-        opacity: 1
-    }
+div.code-toolbar:focus-within > .toolbar {
+	opacity: 1
+}
 
-    div.code-toolbar > .toolbar > .toolbar-item {
-        display: inline-block
-    }
+div.code-toolbar > .toolbar > .toolbar-item {
+	display: inline-block
+}
 
-        div.code-toolbar > .toolbar > .toolbar-item > a {
-            cursor: pointer
-        }
+div.code-toolbar > .toolbar > .toolbar-item > a {
+	cursor: pointer
+}
 
-        div.code-toolbar > .toolbar > .toolbar-item > button {
-            background: 0 0;
-            border: 0;
-            color: inherit;
-            font: inherit;
-            line-height: normal;
-            overflow: visible;
-            padding: 0;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none
-        }
+div.code-toolbar > .toolbar > .toolbar-item > button {
+	background: 0 0;
+	border: 0;
+	color: inherit;
+	font: inherit;
+	line-height: normal;
+	overflow: visible;
+	padding: 0;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none
+}
 
-        div.code-toolbar > .toolbar > .toolbar-item > a, div.code-toolbar > .toolbar > .toolbar-item > button, div.code-toolbar > .toolbar > .toolbar-item > span {
-            color: #bbb;
-            font-size: .8em;
-            padding: 0 .5em;
-            background: #f5f2f0;
-            background: rgba(224,224,224,.2);
-            box-shadow: 0 2px 0 0 rgba(0,0,0,.2);
-            border-radius: .5em
-        }
+div.code-toolbar > .toolbar > .toolbar-item > a, 
+div.code-toolbar > .toolbar > .toolbar-item > button, 
+div.code-toolbar > .toolbar > .toolbar-item > span {
+	color: #bbb;
+	font-size: .8em;
+	padding: 0 .5em;
+	background: #f5f2f0;
+	background: rgba(224,224,224,.2);
+	box-shadow: 0 2px 0 0 rgba(0,0,0,.2);
+	border-radius: .5em
+}
 
-            div.code-toolbar > .toolbar > .toolbar-item > a:focus, div.code-toolbar > .toolbar > .toolbar-item > a:hover, div.code-toolbar > .toolbar > .toolbar-item > button:focus, div.code-toolbar > .toolbar > .toolbar-item > button:hover, div.code-toolbar > .toolbar > .toolbar-item > span:focus, div.code-toolbar > .toolbar > .toolbar-item > span:hover {
-                color: inherit;
-                text-decoration: none
-            }
+div.code-toolbar > .toolbar > .toolbar-item > a:focus, 
+div.code-toolbar > .toolbar > .toolbar-item > a:hover, 
+div.code-toolbar > .toolbar > .toolbar-item > button:focus, 
+div.code-toolbar > .toolbar > .toolbar-item > button:hover, 
+div.code-toolbar > .toolbar > .toolbar-item > span:focus, 
+div.code-toolbar > .toolbar > .toolbar-item > span:hover {
+	color: inherit;
+	text-decoration: none
+}
+
+/**
+ * Added icon to copy button
+ */
+.copy-to-clipboard-button {
+	width:64px;
+	height:64px;
+	display:block;
+	color:transparent;
+	background-image: url('../images/copyButton.png') 	!important;
+	background-repeat: no-repeat 	!important;
+	background-position: center 	!important;
+}
+.copy-to-clipboard-button > span {
+	display: none !important;
+}
+
+/**
+ * Added button styles
+ */
+.styled {
+    color: #fff;
+    width:200px;
+    height:50px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 5px;
+    background-color: rgba(90, 90, 90, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(192, 192, 192, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgba(192, 192, 192, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(192, 192, 192, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.pdfDownload {
+    background-image: url(../images/pdfIcon.png) !important;
+	background-repeat: no-repeat 	             !important;
+	background-position: 8px center 	         !important;
+    text-align:right;
+}
