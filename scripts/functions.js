@@ -21,7 +21,7 @@
      var a = document.createElement("A");
      a.target = "_blank";
      a.download = "CodeAnalysys-" + lesson +  ".pdf";
-     a.href = "../pdf/Codility-Analysis-" + lesson + ".pdf";
+     a.href = "https://paulstsmith.github.io/pdf/Codility-Analysis-" + lesson + ".pdf";
      a.click();
  }
 
