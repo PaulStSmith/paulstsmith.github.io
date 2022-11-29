@@ -74,8 +74,7 @@
          var href = $(this).attr("href");
          var tgt = $(this).attr("target");
          if (rx1.test(href) && !rx2.test(href) && tgt == "")
-             $(this).attr("target", "_blank")
-         }
+             $(this).attr("target", "_blank");
      });
      
      /*
