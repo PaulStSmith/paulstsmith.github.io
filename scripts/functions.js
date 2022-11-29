@@ -73,7 +73,7 @@
          var rx2 = new RegExp("^https?://paulstsmith\.blogspot.com\.io", "i");
          var href = $(this).attr("href");
          var tgt = $(this).attr("target");
-         if (rx1.test(href) && !rx2.test(href) && tgt == "")
+         if (rx1.test(href) && !rx2.test(href) && ((tgt == null ? "" : tgt) == ""))
              $(this).attr("target", "_blank");
      });
      
