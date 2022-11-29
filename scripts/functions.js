@@ -69,7 +69,11 @@
 	 if ($ != jQuery) { _JQ = $; window.$ = jQuery; }
 
      $(".entry-content a").each(function(i) {
-         if (($(this).attr("href") != "") && ($(this).attr("target") == null)) {
+         var rx1 = new RegExp("^https?://", "i");
+         var rx2 = new RegExp("^https?://paulstsmith\.blogspot.com\.io", "i");
+         var href = $(this).attr("href");
+         var tgt = $(this).attr("target");
+         if (rx1.test(href) && !rx2.test(href) && tgt == "")
              $(this).attr("target", "_blank")
          }
      })
