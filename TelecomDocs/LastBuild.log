@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.2.18.0" projectFile="C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Bright Pattern Integration Help.shfbproj" started="17.Jul.24 10:49:37">
+<buildStep step="Initializing">
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
+Locating components in the following folder(s):
+    C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components
+Using framework reflection data for &#39;.NET Framework 4.7.2&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;Default2022&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022&#39;
+Loading and initializing plug-ins...
+Website Table of Contents Generator Version 2024.2.18.0
+Copyright &#169; 2006-2024, Eric Woodruff, All Rights Reserved
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\Users\pauls\source\TelecomInc\BrightPatterns\BrightPatterns.sln
+    Found project &#39;C:\Users\pauls\source\TelecomInc\BrightPatterns\BrightPatterns Integration v2\BrightPatterns.Integration.v2.csproj&#39;
+    Found project &#39;C:\Users\pauls\source\TelecomInc\BrightPatterns\Telecom.Common.47\Telecom.Common.csproj&#39;
+
+Parsing project files
+    Found assembly &#39;C:\Users\pauls\source\TelecomInc\BrightPatterns\BrightPatterns Integration v2\bin\Debug\BrightPatterns Integration v2.exe&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;C:\Users\pauls\source\TelecomInc\BrightPatterns\Telecom.Common.47\bin\Debug\TelecomInc.Common.dll&#39; (.NETFramework 4.7.2)
+
+References to include:
+    adodb, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+    C:\Users\pauls\source\TelecomInc\BrightPatterns\BrightPatterns Integration v2\bin\Debug\BrightPatterns Integration v2.exe
+    C:\Users\pauls\source\TelecomInc\BrightPatterns\Telecom.Common.47\bin\Debug\TelecomInc.Common.dll
+    Microsoft.Bcl.AsyncInterfaces, Version=9.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL
+    Microsoft.Extensions.Configuration, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL
+    Microsoft.Extensions.Configuration.Abstractions, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL
+    Microsoft.Extensions.Configuration.FileExtensions, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL
+    Microsoft.Extensions.Configuration.Ini, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL
+    Microsoft.Extensions.FileProviders.Abstractions, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL
+    Microsoft.Extensions.FileProviders.Physical, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL
+    Microsoft.Extensions.FileSystemGlobbing, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL
+    Microsoft.Extensions.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL
+    Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL
+    RestSharp, Version=111.4.0.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL
+    System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL
+    System.CommandLine, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
+    System.CommandLine.NamingConventionBinder, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
+    System.IO.Pipelines, Version=9.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL
+    System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL
+    System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL
+    System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL
+    System.Text.Encodings.Web, Version=9.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL
+    System.Text.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL
+    System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL
+    System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL
+
+Copying XML comments files
+    C:\Users\pauls\source\TelecomInc\BrightPatterns\Telecom.Common.47\bin\Debug\TelecomInc.Common.xml -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\TelecomInc.Common.xml
+    C:\Users\pauls\source\TelecomInc\BrightPatterns\BrightPatterns Integration v2\bin\Debug\BrightPatterns Integration v2.xml -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\BrightPatterns Integration v2.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+    Last step completed in 00:00:00.1007
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0039
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-6c7502a4-7735-4f2d-9da7-4e6d9e6911ae.proj]
+Build started 17.Jul.24 10:49:53.
+
+Project &quot;C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\GenerateRefInfo-6c7502a4-7735-4f2d-9da7-4e6d9e6911ae.proj&quot; on node 1 (default targets).
+PrepareForBuild:
+  Creating directory &quot;obj\Debug\&quot;.
+GenerateRefInfo:
+  Microsoft.Build (v17.10.4+10fbfbf2eeb0597fdc1f600d87d38c7f57317bdc)
+  &#169; Microsoft Corporation. All rights reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 2 assemblies for reflection and 26 dependency assemblies.
+  Wrote information on 3 namespaces, 48 types, and 316 members
+  Merging duplicate type and member information
+  Merged 0 duplicate type(s) and 0 duplicate member(s)
+Done Building Project &quot;C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\GenerateRefInfo-6c7502a4-7735-4f2d-9da7-4e6d9e6911ae.proj&quot; (default targets).
+    Last step completed in 00:00:06.2438
+</buildStep>
+<buildStep step="ApplyDocumentModel">
+Applying document model to reflection output...
+    Last step completed in 00:00:00.1095
+</buildStep>
+<buildStep step="AddApiTopicFilenames">
+Adding topic filenames to API members...
+    Last step completed in 00:00:00.0293
+</buildStep>
+<buildStep step="GenerateApiTopicManifest">
+Generating API topic manifest...
+    Last step completed in 00:00:00.0264
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.1896
+</buildStep>
+<buildStep step="GenerateInheritedDocumentation">
+Generating inherited documentation...
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateInheritedDocs.proj]
+
+    Last step completed in 00:00:05.9249
+</buildStep>
+<buildStep step="CopyConceptualContent">
+Copying conceptual content...
+Checking for token files...
+Checking for code snippets files...
+Copying images and creating the media map file...
+Generating conceptual topic files
+    Parsing topic file &#39;C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Content\Welcome.aml&#39;
+    C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Content\Welcome.aml -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\ddueXml\5ecbc47f-4fba-4932-a40c-aad0f1a018f1.xml
+    Parsing topic file &#39;C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Content\Videos.aml&#39;
+    C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Content\Videos.aml -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\ddueXml\54E59AC3-7997-40BD-9DA5-4431A2E09AC1.xml
+    Parsing topic file &#39;C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Content\GetLists.aml&#39;
+    C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Content\GetLists.aml -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\ddueXml\23104C5F-2E8A-4D7C-8D48-EA00D969E4C5.xml
+    Parsing topic file &#39;C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Content\Encryption.aml&#39;
+    C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Content\Encryption.aml -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\ddueXml\ED543DDB-12B9-4702-98F9-2AD4F0431419.xml
+    Parsing topic file &#39;C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Content\Import CSV.aml&#39;
+    C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Content\Import CSV.aml -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\ddueXml\C0F46628-5F99-4951-8011-23BF0A94ED15.xml
+    Last step completed in 00:00:00.2858
+</buildStep>
+<buildStep step="CreateConceptualTopicConfigs">
+Creating conceptual topic configuration files...
+    Companion files
+    _ContentMetadata_.xml
+    Merging topic IDs into reference topic manifest file
+    Last step completed in 00:00:00.0577
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\icons\Help.png -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\icons\Help.png
+    Last step completed in 00:00:00.0318
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0010
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file for API content...
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00.0225
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    Last step completed in 00:00:01.4938
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00.0787
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\BuildAssembler.config
+  Updating reference topic configurations.
+  Updating conceptual topic configurations.
+    Removing unused ExampleComponent.
+    Last step completed in 00:00:00.0885
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+<plugIn name="Website Table of Contents Generator" behavior="Before" priority="1000">
+Loading TOC info and adding unique IDs to parent nodes
+</plugIn>Loading configuration...
+Processing topics...
+SHFB: Warning BE0066: ShowMissingComponent: [N:BrightPatterns.Integration] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BrightPatterns.Integration.WebApiListManagementV2.AddRecord(System.String,BrightPatterns.Integration.ListRecord)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BrightPatterns.Integration.WebApiListManagementV2.AddRecords(System.String,BrightPatterns.Integration.ListRecord[])] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BrightPatterns.Integration.WebApiListManagementV2.DeleteAllRecords(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BrightPatterns.Integration.WebApiListManagementV2.DncAddPhones(System.String,BrightPatterns.Integration.DncPhone[])] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BrightPatterns.Integration.WebApiListManagementV2.DncDeleteAllPhones(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BrightPatterns.Integration.WebApiListManagementV2.DncDeletePhones(System.String,BrightPatterns.Integration.DncPhone[])] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BrightPatterns.Integration.WebApiListManagementV2.DncReplaceAllPhones(System.String,BrightPatterns.Integration.DncPhone[])] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BrightPatterns.Integration.WebApiListManagementV2.GetAllRecords(System.String,System.String,System.Int32,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BrightPatterns.Integration.WebApiListManagementV2.GetCampaigns] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BrightPatterns.Integration.WebApiListManagementV2.GetChangedRecords(System.String,System.String,System.DateTime,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BrightPatterns.Integration.WebApiListManagementV2.GetCompletedRecords(System.String,System.String,System.DateTime,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BrightPatterns.Integration.WebApiListManagementV2.GetRecord(System.String,System.String,System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BrightPatterns.Integration.WebApiListManagementV2.UpdateRecord(System.String,BrightPatterns.Integration.ListRecord)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BrightPatterns.Integration.WebApiListManagementV3.GetCampaigns] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:BrightPatterns.Integration.DataTransferObjects] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:Telecom.Common] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Telecom.Common.DBAccess.GetValue``1(System.String,System.Object[],System.String)] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation
+Processed 424 topic(s)
+18 warning(s)
+CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
+ResolveArtLinksComponent: Copying media files...
+CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 8 of 15.
+CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 3 of 30.
+<plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
+Generating TOC fragment files
+</plugIn>    Last step completed in 00:00:23.5825
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.css -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\css\bulma.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.css.map -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\css\bulma.css.map
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.min.css -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\css\bulma.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\font-awesome.css -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\css\font-awesome.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\font-awesome.min.css -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\css\font-awesome.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\ja-JP.css -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\css\ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\ko-KR.css -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\css\ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\presentationStyle.css -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\css\presentationStyle.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\vs.min.css -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\css\vs.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\zh-CN.css -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\css\zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\zh-TW.css -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\css\zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\icons\favicon.ico -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\clipboard.min.js -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\scripts\clipboard.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\highlight.min.js -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\scripts\highlight.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\jquery-3.5.1.min.js -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\scripts\jquery-3.5.1.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\presentationStyle.js -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\scripts\presentationStyle.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-brands-400.ttf -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\webfonts\fa-brands-400.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-brands-400.woff2 -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\webfonts\fa-brands-400.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-regular-400.ttf -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\webfonts\fa-regular-400.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-regular-400.woff2 -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\webfonts\fa-regular-400.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-solid-900.ttf -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\webfonts\fa-solid-900.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-solid-900.woff2 -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\webfonts\fa-solid-900.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-v4compatibility.ttf -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\webfonts\fa-v4compatibility.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-v4compatibility.woff2 -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\webfonts\fa-v4compatibility.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\GeneralError.html -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\GeneralError.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\index.html -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\PageNotFound.html -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\PageNotFound.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\search.html -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\search.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.aspx -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; C:\Users\pauls\source\TelecomInc\BrightPatterns\Bright Pattern Integration Help\Help\Working\Output\Website\Web.Config
+    Last step completed in 00:00:01.2085
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+    Last step completed in 00:00:00.6000
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 500 files
+Copied 583 files for the website content
+    Last step completed in 00:00:04.0595
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00.9264
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 17.Jul.24 10:50:36.  Total time: 00:00:59.5689
+
+</buildStep>
+</shfbBuild>
